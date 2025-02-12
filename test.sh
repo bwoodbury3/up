@@ -8,7 +8,7 @@ set -e
 
 # All time classic
 # https://stackoverflow.com/questions/59895/how-do-i-get-the-directory-where-a-bash-script-is-located-from-within-the-script
-upfile="$(dirname -- "$0")/up"
+upfile="$(dirname -- "$0")/up.sh"
 . "${upfile}"
 
 # Test directory. mktmp wasn't working on my macbook
